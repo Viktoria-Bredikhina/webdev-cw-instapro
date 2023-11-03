@@ -1,9 +1,6 @@
 import { USER_POSTS_PAGE } from "../routes.js";
 import { renderHeaderComponent } from "./header-component.js";
 import { posts, goToPage } from "../index.js";
-import { deletePost, putLikes, removeLikes } from "../index.js"
-import { formatDistanceToNow } from "date-fns";
-import { ru } from "date-fns/locale"
 
 export function renderPostsPageComponent({ appEl }) {
   // TODO: реализовать рендер постов из api
